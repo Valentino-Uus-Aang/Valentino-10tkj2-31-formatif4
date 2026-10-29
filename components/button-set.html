@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumpulan Tombol</title>
+    <style>
+        /* CSS Internal untuk Nomor 1.2 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333333;
+            margin-bottom: 20px;
+        }
+
+        /* Gaya Dasar Tombol */
+        .btn {
+            display: block;
+            width: 80%;
+            padding: 12px 20px;
+            margin: 10px auto;
+            font-size: 15px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+            color: white;
+        }
+
+        /* 4 Variasi Tombol */
+        .btn-1 { background-color: #007bff; } /* Lihat Proyek */
+        .btn-2 { background-color: #28a745; } /* Unduh CV */
+        .btn-3 { background-color: #ffc107; color: #333; } /* Hubungi Saya */
+        .btn-4 { background-color: #dc3545; } /* Kirim Pesan */
+
+        /* Efek Hover (Saat kursor diarahkan) */
+        .btn-1:hover { background-color: #0056b3; }
+        .btn-2:hover { background-color: #1e7e34; }
+        .btn-3:hover { background-color: #e0a800; }
+        .btn-4:hover { background-color: #bd2130; }
+
+        .back-link {
+            display: block;
+            margin-top: 25px;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Tombol Interaktif</h2>
+        
+        <!-- 4 Tombol Sesuai Permintaan -->
+        <a href="#" class="btn btn-1">Lihat Proyek</a>
+        <a href="#" class="btn btn-2">Unduh CV</a>
+        <a href="#" class="btn btn-3">Hubungi Saya</a>
+        <a href="#" class="btn btn-4">Kirim Pesan</a>
+
+        <div>
+            <a href="/index.html" class="back-link">Kembali ke Beranda</a>
+        </div>
+    </div>
+
+</body>
+</html>
